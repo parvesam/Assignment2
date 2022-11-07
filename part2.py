@@ -1,5 +1,5 @@
 class Product:
-    def __init__(self, n1, n2, n3, n4, n5, n6):
+    def __init__(self, n1, n2, n3, n4, n5, n6): #parameters
         self.name1 = n1
         self.name2 = n2
         self.name3 = n3
@@ -7,7 +7,7 @@ class Product:
         self.name5 = n5
         self.name6 = n6
 
-    def getName1(self):
+    def getName1(self): #using get function and import to main.py
         return self.name1
 
     def getName2(self):
