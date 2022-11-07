@@ -35,7 +35,7 @@ print("Current Stock: ",newProduct.getName3())
 print("Sale Price: ",newProduct.getName4())
 print("Manufacture Cost: ",newProduct.getName5())
 print("Monthly Production: ",newProduct.getName6()) 
-#p = book(name1, name2, name3, name4, name5, name6)
+
 
 class Inventory:
     def month(self):
